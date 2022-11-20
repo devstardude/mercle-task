@@ -4,6 +4,7 @@
 
 .tableHead {
   padding: 20px 15px;
+  font-weight: bold;
 }
 .tableColumn td {
   padding: 20px 15px;
