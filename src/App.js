@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Table from "./components/Table";
 import data from "./data";
-import "./App.css";
 import NftTableContainer from "./components/NftTableContainer";
 
 function App() {
