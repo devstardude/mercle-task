@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  gap: 60px;
+}
+.descBox {
+  max-width: 280px;
+}
+.accessoryContainer {
+  display: flex;
+  gap: 8px;
+}

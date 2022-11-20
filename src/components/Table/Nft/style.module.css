@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nftImageContainer {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 10px;
+  overflow:hidden
+}
+.nftImage {
+  height: 100%;
+  width: 100%;
+}

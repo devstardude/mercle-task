@@ -1,0 +1,10 @@
+.table {
+  width: 100%;
+}
+
+.tableHead {
+  padding: 20px 15px;
+}
+.tableColumn td {
+  padding: 20px 15px;
+}

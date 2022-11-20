@@ -1,0 +1,50 @@
+.tooltipContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.tooltipContainer .tooltipWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.tooltipContainer .tooltipWrapper span {
+  z-index: 10;
+  position: absolute;
+  top: -60%;
+  padding: 2px 0px;
+  white-space: nowrap;
+  border: solid 2px #1a63f4;
+  border-radius: 4px;
+  background-color: #21212f;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+.tooltipContainer .tooltipWrapper:hover span {
+  top: -150%;
+  opacity: 0.98;
+}
+
+.tooltipContainer .tooltipWrapper span p {
+  padding: 3px 6px;
+  margin: 0;
+}
+
+.tooltipContainer .tooltipWrapper span p:nth-child(2){
+  color: white;
+}
+
+.tooltipContainer .tooltipWrapper span p:nth-child(3){
+  color: #1A63F4;
+  font-family: 'Handlee', cursive;
+
+}
+

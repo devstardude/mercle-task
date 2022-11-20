@@ -1,0 +1,8 @@
+.NftTableContainer{
+    display: flex;
+    justify-items: center;
+    margin: 20px 30px;
+    border: solid 1px #36344e;
+    border-radius: 10px;
+    background-color: #1D1C28;
+}
