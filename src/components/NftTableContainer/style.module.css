@@ -1,8 +1,15 @@
-.NftTableContainer{
-    display: flex;
-    justify-items: center;
-    margin: 20px 30px;
-    border: solid 1px #36344e;
-    border-radius: 10px;
-    background-color: #1D1C28;
+.NftTableContainer {
+  display: flex;
+  justify-items: center;
+  margin: 20px 30px;
+  border: solid 1px #36344e;
+  border-radius: 10px;
+  background-color: #1d1c28;
+  overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+  .NftTableContainer {
+    margin: 15px 20px;
+  }
 }
